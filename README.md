@@ -1,12 +1,12 @@
 # US-Home-Prices-Influencing-Factors
 
-**Objective:**
+## **Objective:**
 
 Find publicly available data for key factors that influence US home prices nationally. Then, build a data science model that explains how these factors impacted home prices over the last 20 years.
 
 The project aims to build a data science model to predict U.S. home prices based on key economic factors over the last 20 years.
 
-**Steps**
+## **Steps**
 
 1. **Data Collection:**
 
@@ -48,6 +48,11 @@ Create visualizations to illustrate the relationships between actual and predict
 
 Visualize the importance of different features or coefficients in influencing home prices.
 
+![Screenshot 2024-08-02 050246](https://github.com/user-attachments/assets/46ac7634-a126-486e-b86e-316cfead9edb)
+
+![download](https://github.com/user-attachments/assets/9b575ec3-6141-4287-b03e-b02d4a51bdd5)
+
+
 10. **Conclusion:**
 
 Identified strong contender for the best model, considering their low MSE and high R-squared values.
@@ -58,17 +63,14 @@ Draw conclusions about the key factors that have historically influenced US home
 
 The project contributes to understanding the key factors influencing U.S. home prices over the last 20 years and provides a foundation for building robust predictive models in the real estate domain.
 
-# Results
+## Results
 
 The project involves understanding and predicting patterns rather than just describing historical trends or providing actionable recommendations.
 
-![image](https://drive.google.com/file/d/12qmsl3L6cKCtzIlxN0IWSUYwj-J-HAmx/view?usp=drive_link)
+![Screenshot 2024-08-02 045452](https://github.com/user-attachments/assets/256af323-b7fd-4259-97be-909761aa7d50)
 
-![image](https://drive.google.com/file/d/1ts5bM8o2k0RyMxJvfawJ45_yyiwNNhb9/view?usp=drive_link)
+![Screenshot 2024-08-02 045135](https://github.com/user-attachments/assets/e23ae79d-c61f-4cb2-9482-7673e6b4f01b)
 
-![image](https://drive.google.com/file/d/1Z_ciewTL1IvfScd-lO-GxhHNeKkLTXx7/view?usp=sharing)
-
-![image](https://drive.google.com/file/d/1pdYfn5ZYBjpXnySU3hUKJY0xSDqXK32T/view?usp=drive_link)
 
 
 # Data Availability
@@ -81,13 +83,14 @@ The project involves understanding and predicting patterns rather than just desc
 4. Real Median Household Income
 5. Construction Prices
 6. CPI
-7. Interest Rates
-8. Number of new houses supplied
-9. Working Population
-10. Urban Population
-11. Percentage of population above 65
-12. Housing subsidies
-13. Number of Households
+7. Houses
+8. Interest Rates
+9. Number of new houses supplied
+10. Working Population
+11. Urban Population
+12. Percentage of population above 65
+13. Housing subsidies
+14. Number of Households
 
 As a proxy to the home prices, S&P CASE-SHILLER Index is used.
 
@@ -114,6 +117,8 @@ Per Capita GDP - https://fred.stlouisfed.org/series/A939RX0Q048SBEA
 Construction price index - https://fred.stlouisfed.org/series/WPUSI012011
 
 percent urban population - https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?end=2021&locations=US&start=2001
+
+Houses - https://fred.stlouisfed.org/series/MSACSR#0
 
 Housing Subsidies (Federal) - https://fred.stlouisfed.org/series/L312051A027NBEA
 
